@@ -66,6 +66,8 @@ h1 {
     background-color: var(--white);
     padding: 20px;
     border-radius: 8px;
+    width: 200px;
+    height: 200px;
 
     /* você pode mexer aqui depois */
 }

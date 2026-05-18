@@ -24,7 +24,7 @@ body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     padding: 20px;
 }
 
@@ -39,7 +39,6 @@ main {
 /* HEADER */
 .intro {
     text-align: center;
-    margin-bottom: 40px;
     width: 100%;
     max-width: 315px;
     margin: 0 auto 40px auto;
@@ -62,7 +61,6 @@ h1 {
     color: var(--grey-400);
     font-size: 15px;
     line-height: 1.5;
-    width: 100%;
 }
 
 /* CARDS (MOBILE FIRST) */

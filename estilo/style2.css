@@ -58,15 +58,17 @@ h1 {
 .cards {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 25px;
 }
 
 /* CARD BASE */
 .card {
     background-color: var(--white);
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
-
+    width: 100%;
+    max-width: 350px;
     /* você pode mexer aqui depois */
 }
 

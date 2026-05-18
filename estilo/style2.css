@@ -38,7 +38,7 @@ main {
 
 /* HEADER */
 .intro {
-    text-align: center;
+    text-align: left;
     width: 100%;
     max-width: 315px;
     margin: 0 auto 40px auto;

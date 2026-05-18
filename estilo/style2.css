@@ -101,6 +101,7 @@ h1 {
     font-size: 13px;
     line-height: 1.3em;
     margin-bottom: 30px;
+    padding: 0;
 }
 
 .card img {

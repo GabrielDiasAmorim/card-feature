@@ -40,8 +40,8 @@ main {
 .intro {
     text-align: center;
     width: 100%;
-    max-width: 315px;
-    margin: 0 auto 40px auto;
+    max-width: 500px;
+    margin: 0 auto 60px auto;
     padding: 0;
     border: 3px solid red;
 }
@@ -78,7 +78,7 @@ h1 {
 /* CARD BASE */
 .card {
     background-color: var(--white);
-    padding: 28px;
+    padding: 40px 28px;
     border-radius: 8px;
     width: 100%;
     max-width: 315px;
@@ -117,7 +117,7 @@ h1 {
     color: var(--grey-400);
     font-size: 18px;
     line-height: 1.2em;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding: 0;
 }
 

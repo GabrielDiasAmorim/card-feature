@@ -38,9 +38,9 @@ main {
 
 /* HEADER */
 .intro {
-    text-align: justify;
+    text-align: left;
     width: 100%;
-    max-width: 315px;
+    max-width: 311px;
     margin: 0 auto 40px auto;
     padding: 0;
     border: 3px solid red;

@@ -4,32 +4,24 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 15px;
-        /* 🔥 SUA MISSÃO:
-           - trocar pra grid
-           - definir colunas
-        */
     }
 
     .supervisor {
-        /* posição no grid */
         grid-row: 2;
         grid-column: 1;
     }
 
     .team {
-        /* posição no grid */
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 2;
     }
 
     .karma {
-        /* posição no grid */
-        grid-row: 3;
+        grid-row: 2;
         grid-column: 2;
     }
 
     .calculator {
-        /* posição no grid */
         grid-row: 2;
         grid-column: 3;
     }

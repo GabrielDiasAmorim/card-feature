@@ -38,9 +38,9 @@ main {
 
 /* HEADER */
 .intro {
-    text-align: left;
+    text-align: center;
     width: 100%;
-    max-width: 311px;
+    max-width: 315px;
     margin: 0 auto 40px auto;
     padding: 0;
     border: 3px solid red;
@@ -54,7 +54,7 @@ main {
 
 h1 {
     color: var(--grey-500);
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 16px;
 }
@@ -108,7 +108,7 @@ h1 {
 /* CONTEÚDO DO CARD */
 .card h2 {
     color: var(--grey-500);
-    font-size: 26px;
+    font-size: 24px;
     margin-bottom: 8px;
     padding: 0;
 }

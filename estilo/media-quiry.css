@@ -1,6 +1,10 @@
 @media (min-width: 768px) {
 
     .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows:100px 100px 100px 100px;
+        gap: 10px;
         /* 🔥 SUA MISSÃO:
            - trocar pra grid
            - definir colunas
@@ -9,18 +13,26 @@
 
     .supervisor {
         /* posição no grid */
+        grid-row: 2 / 4;
+        grid-column: 1 / 2;
     }
 
     .team {
         /* posição no grid */
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
     }
 
     .karma {
         /* posição no grid */
+        grid-row: 3 / 5;
+        grid-column: 2 / 3;
     }
 
     .calculator {
         /* posição no grid */
+        grid-row: 2 / 4;
+        grid-column: 3 / 4;
     }
 
 }

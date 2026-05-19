@@ -40,10 +40,9 @@ main {
 .intro {
     text-align: center;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 0 auto 60px auto;
     padding: 0;
-    border: 3px solid red;
 }
 
 .subtitle {
@@ -72,7 +71,6 @@ h1 {
     align-items: center;
     gap: 25px;
     width: 100%;
-    border: 3px solid blue;
 }
 
 /* CARD BASE */
@@ -90,7 +88,6 @@ h1 {
 /* CORES DO TOPO (IMPORTANTE PRA VOCÊ FAZER) */
 .supervisor {
     border-top: 4px solid var(--cyan);
-    border: 3px solid black;
 }
 
 .team {
@@ -117,7 +114,7 @@ h1 {
     color: var(--grey-400);
     font-size: 18px;
     line-height: 1.2em;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     padding: 0;
 }
 
